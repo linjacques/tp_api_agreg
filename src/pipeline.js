@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const RANDOMMER_API_KEY = ' 94018584f1d04a9094afcad36c363c78';
+const RANDOMMER_API_KEY = '94018584f1d04a9094afcad36c363c78';
 
 const headers = {
   'X-Api-Key': RANDOMMER_API_KEY

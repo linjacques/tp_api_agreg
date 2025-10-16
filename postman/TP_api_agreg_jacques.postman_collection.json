@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "8c2e89d5-f40d-414d-90d3-d7e0a0cf0e6a",
+		"name": "TP_api_agreg_jacques",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24851922"
+	},
+	"item": [
+		{
+			"name": "Pipeline agreg",
+			"item": [
+				{
+					"name": "getRandomUser",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MmM0Mzk3ZDY4NDA4ODkzY2QwYmMwYiIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJpYXQiOjE3NDc3NTUxNjYsImV4cCI6MTc0Nzc1ODc2Nn0.GYTw8yTH2LoxRcM2_hORz-rDuxoKUR1o4426AvbStC8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:3000/pipeline",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"pipeline"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
